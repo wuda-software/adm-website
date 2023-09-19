@@ -1,17 +1,20 @@
 name: Build Website
+
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
+      
 jobs:
     build:
       runs-on: ubuntu-latest
+      
       steps:
         - uses: actions/checkout@master
         - uses: actions/setup-node@v2
-        
         - name: Build Vite
           run: |
             npm i
             npm run build
+        - name: Log
+          run: ls
