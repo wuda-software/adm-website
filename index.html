@@ -6,16 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADM Operations GmbH</title>
     <!-- CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.0.3-alpha/dist/css/materialize.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@latest/dist/css/materialize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet" />
     <style>
       body {
         font-family: "Inclusive Sans", sans-serif;
@@ -23,72 +17,51 @@
       }
     </style>
     <!-- JS -->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9412332535613378"
-      crossorigin="anonymous"
-    ></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9412332535613378" crossorigin="anonymous"></script>
   </head>
   <body>
     <main class="container">
       <div class="center-align">
-        <img
-          src="images/adm-logo.svg"
-          alt="ADM Operations Logo"
-          style="height: 100px; margin: 0 auto"
-        />
-        <h1 style="font-size: 2.5rem; margin: 0">ADM Operations GmbH</h1>
-
-        <p style="margin: 0; line-height: 1.5">
-          Hochfeldweg 4, 5322 Hof bei Salzburg, Austria<br />
-          info [AT] adm-op [DOT] com
-        </p>
-
-        <h2 style="font-size: 2rem">About</h2>
-        <p>
-          ADM Operations GmbH is there to provide services and products created
-          by multiple independent Software Creators around the world. ADM
-          Operations Goal is to merge the productivity of many talents into a
-          pathway of profitable projects and support the creators to continue.
-        </p>
+        <section>
+          <img src="images/adm-logo.svg" alt="ADM Operations Logo" style="height: 100px; margin: 0 auto" />
+          <h1 style="font-size: 2.5rem; margin: 0">ADM Operations GmbH</h1>
+          <p style="margin: 0; line-height: 1.5">
+            Hochfeldweg 4, 5322 Hof bei Salzburg, Austria<br />
+            info [AT] adm-op [DOT] com
+          </p>
+          <h2 style="font-size: 2rem">About</h2>
+          <p>
+            ADM Operations GmbH is there to provide services and products created by multiple independent Software Creators around the world. ADM Operations Goal is to merge the
+            productivity of many talents into a pathway of profitable projects and support the creators to continue.
+          </p>
+        </section>
 
         <p>{{text}}</p>
 
-        <h2 style="font-size: 2rem">Partners</h2>
-        <p>
-          We are constantly looking for new Partners, Projects and Contacts. If
-          you think you will fit here, please do not hesitate contacting us. We
-          know that, whithout our partners, we would not be where we are today.
-          Thank you!
-        </p>
-
-        <div class="row" style="gap: 1rem">
-          <a class="s6" target="_blank" href="https://www.wuda.io">
-            <div>
-              <img
-                src="https://www.wuda.io/img/wuda-logo.png"
-                alt="Wuda Software Logo"
-                style="width: 60px; height: 60px"
-              /><br />
-              Wuda Software
-            </div>
-          </a>
-          <a class="s6" target="_blank" href="https://www.materializeweb.com">
-            <div>
-              <img
-                src="https://materializeweb.com/images/materialize.svg"
-                alt="Materialize Logo"
-                style="width: 60px; height: 60px"
-              /><br />
-              Materialize
-            </div>
-          </a>
-        </div>
+        <section>
+          <h2 style="font-size: 2rem">Partners</h2>
+          <p>
+            We are constantly looking for new Partners, Projects and Contacts. If you think you will fit here, please do not hesitate contacting us. We know that, whithout our
+            partners, we would not be where we are today. Thank you!
+          </p>
+          <div class="row" style="gap: 1rem">
+            <a class="s6" target="_blank" href="https://www.wuda.io">
+              <div>
+                <img src="https://www.wuda.io/img/wuda-logo.png" alt="Wuda Software Logo" style="width: 60px; height: 60px" /><br />
+                Wuda Software
+              </div>
+            </a>
+            <a class="s6" target="_blank" href="https://www.materializeweb.com">
+              <div>
+                <img src="https://materializeweb.com/images/materialize.svg" alt="Materialize Logo" style="width: 60px; height: 60px" /><br />
+                Materialize
+              </div>
+            </a>
+          </div>
+        </section>
       </div>
     </main>
-
     <div id="app"></div>
-
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
