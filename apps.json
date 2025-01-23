@@ -1,5 +1,36 @@
 [
   {
+    "@id": "outlayer",
+    "@type": "SoftwareApplication",
+    "name": "Outlayer Kernel",
+    "description": "Manages the basic functions of the outlayer distributed operating system"
+  },
+  {
+    "@id": "accounting",
+    "@type": "SoftwareApplication",
+    "name": "Accounting",
+    "description": "Manage Customers, Suppliers and Invoices and Transactions for multiple Businesses."
+  },
+  {
+    "@id": "resources",
+    "@type": "SoftwareApplication",
+    "name": "Resources",
+    "description": "Manage Places, Products and Services and Capital."
+  },
+  {
+    "@id": "planning",
+    "@type": "SoftwareApplication",
+    "name": "Planning",
+    "description": "Schedule and manage the use of resources efficiently by planing future actions."
+  },
+  {
+    "@id": "test",
+    "@type": "SoftwareApplication",
+    "name": "Testing Playground",
+    "description": "Test Apps or Extensions for future integrations."
+  },
+
+  {
     "@id": "cartrade",
     "@type": "SoftwareApplication",
     "name": "_Car Dealership"
