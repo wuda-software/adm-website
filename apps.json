@@ -194,5 +194,16 @@
     "version": "0.0.0",
     "url": "/habits",
     "potentialAction": "habits:view"
+  },
+  {
+    "@id": "workorders",
+    "@type": "SoftwareApplication",
+    "name": "Work Orders",
+    "description": "Manage Tasks",
+    "image": "account_balance",
+    "thumbnailUrl": "order_approve",
+    "inLanguage": "en-US",
+    "version": "0.0.0",
+    "potentialAction": "workorders:view"
   }
 ]
